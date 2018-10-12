@@ -1,0 +1,28 @@
+﻿{
+  /*
+    predefined functions:
+      $encrypt(string)
+      $datetimenow(format)
+      $projectconfig( )
+      $projectplatform( )
+      $isdebug( )
+      $fileversion( )
+      $productversion( )
+      $productname( )
+  */
+
+  /* Filters the files to be modified */
+  "file-filter": [
+    "*.json"
+  ],
+  /* Look for the files in sub directories in the output folder also */
+  "include-subdirs": false,
+  "custom": [
+    {
+      "name": "testScript",
+      "code": [
+        "return \"This is cool \" + System.DateTime.Now.ToString(arg);"
+      ]
+    }
+  ]
+}

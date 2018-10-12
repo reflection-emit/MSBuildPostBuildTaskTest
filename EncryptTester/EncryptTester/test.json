@@ -1,0 +1,7 @@
+﻿/* Created on $datetimenow(yyyy-MM-dd) for version $fileversion( ) $productversion( ) $productname( ) */
+{
+  "date": "$datetimenow(yyyy-MM-dd)",
+  "config": "$projectconfig( ) $projectplatform( )",
+  "password": "$encrypt(This is very hidden)",
+  "bla": "This is a test $testScript(yyyy-HH-ss)"
+}
